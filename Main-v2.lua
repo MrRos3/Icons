@@ -45,22 +45,22 @@ local IconModule = {
 
 	Icons = {
 		lucide = IsExploit() and Loadstring(
-			Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/lucide/dist/Icons.lua")
+			Get("https://raw.githubusercontent.com/MrRos3/Icons/refs/heads/main/lucide/dist/Icons.lua")
 		)() or require("./lucide/dist/Icons"),
 		solar = IsExploit() and Loadstring(
-			Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/solar/dist/Icons.lua")
+			Get("https://raw.githubusercontent.com/MrRos3/Icons/refs/heads/main/solar/dist/Icons.lua")
 		)() or require("./solar/dist/Icons"),
 		craft = IsExploit() and Loadstring(
-			Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/craft/dist/Icons.lua")
+			Get("https://raw.githubusercontent.com/MrRos3/Icons/refs/heads/main/craft/dist/Icons.lua")
 		)() or require("./craft/dist/Icons"),
 		geist = IsExploit() and Loadstring(
-			Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/geist/dist/Icons.lua")
+			Get("https://raw.githubusercontent.com/MrRos3/Icons/refs/heads/main/geist/dist/Icons.lua")
 		)() or require("./geist/dist/Icons"),
 		sfsymbols = IsExploit() and Loadstring(
-			Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/sfsymbols/dist/Icons.lua")
+			Get("https://raw.githubusercontent.com/MrRos3/Icons/refs/heads/main/sfsymbols/dist/Icons.lua")
 		)() or require("./sfsymbols/dist/Icons"),
 		gravity = IsExploit() and Loadstring(
-			Get("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/gravity/dist/Icons.lua")
+			Get("https://raw.githubusercontent.com/MrRos3/Icons/refs/heads/main/gravity/dist/Icons.lua")
 		)() or require("./gravity/dist/Icons"),
 	},
 }
