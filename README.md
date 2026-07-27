@@ -6,7 +6,7 @@
 
 ```lua
 -- Load icons
-local IconsV2 = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Footagesus/Icons/main/Main-v2.lua"))()
+local IconsV2 = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/MrRos3/Icons/main/Main-v2.lua"))()
 
 -- optional. Set Icons Type (default is lucide)
 IconsV2.SetIconsType("lucide") -- lucide, craft and more...
@@ -30,7 +30,7 @@ ImageLabel2.ImageColor3 = Color3.fromHex("#30ff6a") -- set color
 
 ```lua
 -- Load Icons
-local Icons = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Footagesus/Icons/main/Main-v2.lua"))()
+local Icons = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/MrRos3/Icons/main/Main-v2.lua"))()
 
 local PrimaryColor = Color3.fromHex("#ffffff")
 local SecondaryColor = Color3.fromHex("#315dff")
@@ -53,7 +53,7 @@ local houseIcon = Icons.Image({
 
 ```lua
 -- Load Icons
-local Icons = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Footagesus/Icons/main/Main-v2.lua"))()
+local Icons = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/MrRos3/Icons/main/Main-v2.lua"))()
 
 -- WindUI 'Creator' module
 local WindUI = loadstring(game:HttpGet(--[[Paste WindUI Library]]))()
@@ -85,12 +85,4 @@ local folderIcon = Icons.Image({
 houseIcon.IconFrame.Parent = ScreenGui -- ... Parent to your UI
 folderIcon.IconFrame.Parent = ScreenGui -- ... Parent to your UI
 ```
-
-### Available Icons (Credits)
-
-- [Lucide Icons](https://github.com/lucide-icons/lucide)
-- [Craft Icons](https://www.figma.com/community/file/1415718327120418204)
-- [Geist Icons](https://vercel.com/geist/icons)
-- [Solar Icons](https://icones.js.org/collection/solar)
-- [SF Symbols](https://sf-symbols-one.vercel.app/)
 - [Gravity UI Icons](https://gravity-ui.com/ru/icons)
